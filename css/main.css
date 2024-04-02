@@ -1,0 +1,114 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+.notosanskr * {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+@font-face {
+    font-family: 'Gmarket Sans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --color-main-black: #3E3E3E;
+    --color-orange-main: #FE9519;
+    --color-light-grey: #f2f2f2;
+    --color-dark-grey: #d9d9d9;
+}
+
+
+body {
+    font-family: 'Gmarket Sans';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.add_assignment_button_div {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add_assignment_button {
+    background-color: var(--color-orange-main);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.assignment_list_title_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.homework_list_icon {
+    width: 50px;
+    height: auto;
+}
+
+.assignment_list_title {
+    color: var(--color-main-black);
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+.assignment_box {
+    display: flex;
+    border: 1px solid #d9d9d9;
+    width: 780px;
+    height: auto;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.homework_btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.homework_title_wrapper, .homework_content_wrapper, .homework_date_wrapper {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.homework_title {
+    font-family: "Gmarket Sans";
+    color: var(--color-main-black);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 13px;
+}
+
+.homework_content {
+    font-family: "Noto Sans KR";
+    color: var(--color-main-black);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.homework_date {
+    font-family: "Noto Sans KR";
+    color: var(--color-orange-main);
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+
+
